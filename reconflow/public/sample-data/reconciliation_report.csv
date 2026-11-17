@@ -1,0 +1,5 @@
+transaction_id,discrepancy_type,source,difference_inr,explanation,recommended_action,status
+TXN-MONTH-END,TIMING DIFFERENCE,Cross-month,0.00,Payment on 2026-10-31 settled on 2026-11-01 (T+1).,Link next-period settlement; retain October cutoff timing item.,CLASSIFIED
+TXN00010; TXN00020; TXN00030,ROUNDING DIFFERENCE,Amount comparison,0.03,Three bank gross records each differ by one paise.,Record explicit variance; do not overwrite source amounts.,CLASSIFIED
+TXN00040,DUPLICATE,Bank,0.00,Repeated bank settlement transaction reference.,Exclude duplicate from confirmed totals; preserve raw row.,CLASSIFIED
+REF-ORPHAN-001,ORPHAN REFUND,Platform,-450.00,Original transaction TXN-DOES-NOT-EXIST is absent.,Manual investigation; do not fabricate original payment.,INVESTIGATION REQUIRED

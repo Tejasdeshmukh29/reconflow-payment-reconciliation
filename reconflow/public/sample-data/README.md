@@ -1,0 +1,1 @@
+Sample files are deterministic demo data for assessment use. Raw files contain four planted discrepancy types. Corrected bank CSV excludes the duplicate row; orphan refund remains visible in platform data for investigation. The browser application generates fresh deterministic data as well.
